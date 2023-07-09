@@ -1,0 +1,177 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  font-family: "League Spartan", sans-serif;
+}
+
+.header-container {
+  display: flex;
+  padding: 104px 133px 168px 133px;
+  background-color: #f8f8f8;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 186%;
+  color: #161515;
+}
+
+.description-watch {
+  margin-top: 43px;
+  width: 575px;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 155%;
+  color: #161515;
+}
+
+.header-subtitle {
+  margin-top: 53px;
+  color: #272727;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 250px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.buy-container {
+  width: 421px;
+  height: 82px;
+  display: flex;
+  margin-top: 61px;
+}
+
+.buy-link {
+  background-color: black;
+  width: 278px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 82px;
+  color: #fff;
+  font-size: 32px;
+}
+
+.price-watch {
+  background-color: white;
+  width: 143px;
+  color: #272727;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 82px;
+}
+
+.product-list {
+  font-family: "League Spartan", sans-serif;
+}
+
+.main-title {
+  padding-top: 43px;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 186%;
+  font-family: "League Spartan", sans-serif;
+}
+
+.main-subtitle {
+  color: #000;
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 112.5%;
+  font-family: "League Spartan", sans-serif;
+}
+
+.watch-item {
+  display: flex;
+  justify-content: center;
+  width: 417px;
+  height: 630px;
+  background-color: #f8f8f8;
+}
+
+.img-watch-item {
+  height: 400px;
+  width: 200px;
+  display: block;
+  align-items: center;
+}
+
+.name-watch-item {
+  margin-top: 67px;
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "League Spartan", sans-serif;
+}
+
+.description-watch-item {
+  width: 550px;
+  margin-top: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: normal;
+  font-family: "League Spartan", sans-serif;
+}
+
+.box {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  width: 417px;
+  height: 630px;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+  background-color: #161515;
+}
