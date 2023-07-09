@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/list-produts.css" />
+    <link rel="stylesheet" href="/styles/product-description.css" />
     <title>Watches</title>
   </head>
   <body>
@@ -22,7 +25,7 @@
             <div class="price-watch">1700$</div>
           </div>
         </div>
-        <div style="margin-top: -100px; margin-left: 100px">
+        <div class="header-watch">
           <img style="height: 720px" src="/images/watch1.png" alt="watch1" />
         </div>
       </div>
@@ -32,17 +35,7 @@
         <h2 class="main-title">popular</h2>
         <p class="main-subtitle">Models</p>
         <div style="margin-top: 84px">
-          <div
-            style="
-              margin: 0 auto;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              background-color: #f8f8f8;
-              width: 417px;
-              height: 630px;
-            "
-          >
+          <div class="watch-item">
             <img src="/images/watch2.png" alt="" />
           </div>
           <h3 class="name-watch-item">Son22</h3>
@@ -53,17 +46,7 @@
           </p>
         </div>
         <div style="margin-top: 84px">
-          <div
-            style="
-              margin: 0 auto;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              background-color: #f8f8f8;
-              width: 417px;
-              height: 630px;
-            "
-          >
+          <div class="watch-item">
             <img src="/images/watch2.png" alt="" />
           </div>
           <h3 class="name-watch-item">Sw12</h3>
@@ -74,40 +57,18 @@
         </div>
       </div>
     </main>
-    <h3
-      style="
-        margin-top: 59px;
-        color: #161515;
-        text-align: center;
-        font-family: League Spartan;
-        font-size: 32px;
-        font-weight: 400;
-      "
-    >
-      Product description
-    </h3>
-    <hr style="width: 178px; text-align: center; background-color: #707070" />
-    <p
-      style="
-        color: #161515;
-        width: 515px;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: 170%;
-        text-align: center;
-        margin-top: 49px;
-        margin-left: auto;
-        margin-right: auto;
-      "
-    >
-      Inspired by the WWI trench watch, this timepiece has a contemporary design
-      with an urban style and a vintage soul. The 22 Design Studio Concrete
-      Sector Watch reinterprets the old timepiece with a concrete dial. Handmade
-      in Taiwan, the dial is cast in one piece using the béton technique
-      <a style="text-decoration: none; color: #bb8b5d" href="/"
-        >more detailed</a
-      >
-    </p>
+
+    <section class="product-description">
+      <h3 class="header-product-description">Product description</h3>
+      <hr class="line-product-description" />
+      <p class="text-product-description">
+        Inspired by the WWI trench watch, this timepiece has a contemporary
+        design with an urban style and a vintage soul. The 22 Design Studio
+        Concrete Sector Watch reinterprets the old timepiece with a concrete
+        dial. Handmade in Taiwan, the dial is cast in one piece using the béton
+        technique
+        <a class="link-product-description" href="/">more detailed</a>
+      </p>
+    </section>
   </body>
 </html>

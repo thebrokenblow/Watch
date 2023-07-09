@@ -1,0 +1,64 @@
+.product-list {
+  font-family: "League Spartan", sans-serif;
+}
+
+.main-title {
+  padding-top: 43px;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 186%;
+  font-family: "League Spartan", sans-serif;
+}
+
+.main-subtitle {
+  color: #000;
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 112.5%;
+  font-family: "League Spartan", sans-serif;
+}
+
+.watch-item {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  width: 417px;
+  height: 630px;
+}
+
+.img-watch-item {
+  height: 400px;
+  width: 200px;
+  display: block;
+  align-items: center;
+}
+
+.name-watch-item {
+  margin-top: 67px;
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "League Spartan", sans-serif;
+}
+
+.description-watch-item {
+  width: 550px;
+  margin-top: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: normal;
+  font-family: "League Spartan", sans-serif;
+}

@@ -1,0 +1,67 @@
+.header {
+  font-family: "League Spartan", sans-serif;
+}
+
+.header-container {
+  display: flex;
+  padding: 104px 133px 168px 133px;
+  background-color: #f8f8f8;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 186%;
+  color: #161515;
+}
+
+.description-watch {
+  margin-top: 43px;
+  width: 575px;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 155%;
+  color: #161515;
+}
+
+.header-subtitle {
+  margin-top: 53px;
+  color: #272727;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 250px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.buy-container {
+  width: 421px;
+  height: 82px;
+  display: flex;
+  margin-top: 61px;
+}
+
+.buy-link {
+  background-color: black;
+  width: 278px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 82px;
+  color: #fff;
+  font-size: 32px;
+}
+
+.price-watch {
+  background-color: white;
+  width: 143px;
+  color: #272727;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 82px;
+}
+
+.header-watch {
+  margin-top: -100px;
+  margin-left: 100px;
+}

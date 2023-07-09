@@ -1,0 +1,36 @@
+.product-description {
+  font-family: "League Spartan", sans-serif;
+}
+
+.header-product-description {
+  margin-top: 59px;
+  color: #161515;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.text-product-description {
+  color: #161515;
+  width: 515px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 170%;
+  text-align: center;
+  margin-top: 49px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line-product-description {
+  width: 178px;
+  text-align: center;
+  background-color: #707070;
+}
+
+.link-product-description {
+  text-decoration: none;
+  color: #bb8b5d;
+}
